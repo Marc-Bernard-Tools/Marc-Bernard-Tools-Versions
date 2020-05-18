@@ -1,14 +1,10 @@
 # Marc Bernard Tools - Version Overview
 
-![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml&label=version)
+![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/Marc_Bernard_Tools&label=version)
 
 The following list shows the versions of all Marc Bernard Tools.
 
 ## Free Version
-
-### MBT Base
-
-![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/Marc_Bernard_Tools&label=version&color=blue)
 
 ### MBT Icon Browser
 
