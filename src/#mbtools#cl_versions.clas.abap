@@ -11,7 +11,8 @@ CLASS /mbtools/cl_versions DEFINITION
       c_version     TYPE string VALUE '1.0.0' ##NO_TEXT,
       c_title       TYPE string VALUE 'Marc Bernard Tools Version' ##NO_TEXT,
       c_description TYPE string VALUE 'Version Overview for Marc Bernard Tools' ##NO_TEXT,
-      c_download_id TYPE i VALUE 0 ##NO_TEXT.
+      c_bundle_id   TYPE i VALUE 0,
+      c_download_id TYPE i VALUE 0.
 
     METHODS constructor .
 
@@ -36,13 +37,16 @@ CLASS /MBTOOLS/CL_VERSIONS IMPLEMENTATION.
       lo_tool           TYPE REF TO object,
       lo_manifest       TYPE REF TO zif_apack_manifest,
       ls_manifest_descr TYPE /mbtools/manifest,
+      lt_manifest_descr TYPE STANDARD TABLE OF /mbtools/manifest WITH DEFAULT KEY,
       ls_dependency     TYPE zif_apack_manifest=>ty_dependency.
 
     CREATE OBJECT mo_tool EXPORTING io_tool = me.
 
     apack_manifest = mo_tool->apack_manifest.
 
-    LOOP AT /mbtools/cl_tools=>get_manifests( ) INTO ls_manifest_descr.
+    lt_manifest_descr = /mbtools/cl_tools=>get_manifests( ).
+
+    LOOP AT lt_manifest_descr INTO ls_manifest_descr.
 
       CREATE OBJECT lo_tool TYPE (ls_manifest_descr-class).
       CHECK sy-subrc = 0.
