@@ -26,4 +26,6 @@ The following list shows the versions of all Marc Bernard Tools.
 
 ## Premium BW
 
-T.b.d.
+## MBT System Monitor
+
+![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_System_Monitor&label=version&color=blue)
