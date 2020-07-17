@@ -50,8 +50,14 @@ CLASS /MBTOOLS/CL_VERSIONS IMPLEMENTATION.
     LOOP AT lt_manifest INTO ls_manifest.
 
       CLEAR ls_dependency.
-      ls_dependency-group_id       = ls_manifest-group_id.
-      ls_dependency-artifact_id    = ls_manifest-artifact_id.
+
+      IF ls_manifest-is_bundle = abap_true.
+        ls_dependency-group_id    = 'github.com/mbtools'.
+        ls_dependency-artifact_id = ls_manifest-name.
+      ELSE.
+        ls_dependency-group_id    = ls_manifest-group_id.
+        ls_dependency-artifact_id = ls_manifest-artifact_id.
+      ENDIF.
       ls_dependency-version        = ls_manifest-version.
       ls_dependency-git_url        = ls_manifest-git_url.
       ls_dependency-target_package = ls_manifest-package.
