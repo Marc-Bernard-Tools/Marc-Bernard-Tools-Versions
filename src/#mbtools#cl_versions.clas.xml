@@ -18,12 +18,6 @@
      <LANGU>E</LANGU>
      <DESCRIPT>Initialize manifests</DESCRIPT>
     </SEOCOMPOTX>
-    <SEOCOMPOTX>
-     <CLSNAME>/MBTOOLS/CL_VERSIONS</CLSNAME>
-     <CMPNAME>C_VERSION</CMPNAME>
-     <LANGU>E</LANGU>
-     <DESCRIPT>Version</DESCRIPT>
-    </SEOCOMPOTX>
    </DESCRIPTIONS>
   </asx:values>
  </asx:abap>

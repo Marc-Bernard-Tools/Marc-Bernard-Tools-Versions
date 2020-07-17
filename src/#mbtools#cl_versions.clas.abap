@@ -8,19 +8,19 @@ CLASS /mbtools/cl_versions DEFINITION
     INTERFACES if_apack_manifest .
 
     CONSTANTS:
-      c_version     TYPE string VALUE '1.0.0' ##NO_TEXT,
-      c_title       TYPE string VALUE 'Marc Bernard Tools Version' ##NO_TEXT,
-      c_description TYPE string VALUE 'Version Overview for Marc Bernard Tools' ##NO_TEXT,
-      c_bundle_id   TYPE i VALUE 0,
-      c_download_id TYPE i VALUE 0.
+      BEGIN OF c_tool,
+        version     TYPE string VALUE '1.0.0' ##NO_TEXT,
+        title       TYPE string VALUE 'Marc Bernard Tools Version' ##NO_TEXT,
+        description TYPE string VALUE 'Version Overview for Marc Bernard Tools' ##NO_TEXT,
+        bundle_id   TYPE i VALUE 0,
+        download_id TYPE i VALUE 0,
+      END OF c_tool.
 
     METHODS constructor .
 
   PROTECTED SECTION.
 
   PRIVATE SECTION.
-
-    DATA mo_tool TYPE REF TO /mbtools/cl_tools.
 
     ALIASES apack_manifest
       FOR if_apack_manifest~descriptor .
@@ -34,30 +34,27 @@ CLASS /MBTOOLS/CL_VERSIONS IMPLEMENTATION.
   METHOD constructor.
 
     DATA:
-      lo_tool           TYPE REF TO object,
-      lo_manifest       TYPE REF TO zif_apack_manifest,
-      ls_manifest_descr TYPE /mbtools/manifest,
-      lt_manifest_descr TYPE STANDARD TABLE OF /mbtools/manifest WITH DEFAULT KEY,
-      ls_dependency     TYPE zif_apack_manifest=>ty_dependency.
+      ls_manifest   TYPE /mbtools/manifest,
+      lt_manifest   TYPE /mbtools/manifests,
+      ls_dependency TYPE zif_apack_manifest=>ty_dependency.
 
-    CREATE OBJECT mo_tool EXPORTING io_tool = me.
+    apack_manifest-group_id        = 'github.com/mbtools'.
+    apack_manifest-artifact_id     = replace( val = c_tool-title sub = ` ` with = '_' ).
+    apack_manifest-version         = c_tool-version.
+    apack_manifest-repository_type = 'abapGit'.
+    apack_manifest-git_url         = 'https://github.com/mbtools/Marc_Bernard_Tools_Version.git'.
+    apack_manifest-target_package  = '/MBTOOLS/BC_VERS'.
 
-    apack_manifest = mo_tool->apack_manifest.
+    lt_manifest = /mbtools/cl_tools=>get_manifests( ).
 
-    lt_manifest_descr = /mbtools/cl_tools=>get_manifests( ).
-
-    LOOP AT lt_manifest_descr INTO ls_manifest_descr.
-
-      CREATE OBJECT lo_tool TYPE (ls_manifest_descr-class).
-      CHECK sy-subrc = 0.
-
-      lo_manifest ?= lo_tool.
+    LOOP AT lt_manifest INTO ls_manifest.
 
       CLEAR ls_dependency.
-      ls_dependency-group_id    = lo_manifest->descriptor-group_id.
-      ls_dependency-artifact_id = lo_manifest->descriptor-artifact_id.
-      ls_dependency-version     = lo_manifest->descriptor-version.
-      ls_dependency-git_url     = lo_manifest->descriptor-git_url.
+      ls_dependency-group_id       = ls_manifest-group_id.
+      ls_dependency-artifact_id    = ls_manifest-artifact_id.
+      ls_dependency-version        = ls_manifest-version.
+      ls_dependency-git_url        = ls_manifest-git_url.
+      ls_dependency-target_package = ls_manifest-package.
       INSERT ls_dependency INTO TABLE apack_manifest-dependencies.
 
     ENDLOOP.
