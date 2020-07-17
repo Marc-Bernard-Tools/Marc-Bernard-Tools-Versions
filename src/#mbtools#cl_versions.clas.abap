@@ -1,3 +1,13 @@
+************************************************************************
+* /MBTOOLS/CL_VERSIONS
+* MBT Versions
+*
+* This class is used for showing the versions of all Marc Bernard Tools
+* in a public repository on Github:
+* https://github.com/mbtools/Marc_Bernard_Tools_Versions
+*
+* (c) MBT 2020 https://marcbernardtools.com/
+************************************************************************
 CLASS /mbtools/cl_versions DEFINITION
   PUBLIC
   FINAL
