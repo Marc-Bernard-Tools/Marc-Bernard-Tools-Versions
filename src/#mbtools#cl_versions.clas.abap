@@ -1,5 +1,8 @@
+CLASS /mbtools/cl_versions DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
 ************************************************************************
-* /MBTOOLS/CL_VERSIONS
 * MBT Versions
 *
 * This class is used for showing the versions of all Marc Bernard Tools
@@ -8,10 +11,6 @@
 *
 * (c) MBT 2020 https://marcbernardtools.com/
 ************************************************************************
-CLASS /mbtools/cl_versions DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
 
   PUBLIC SECTION.
 
