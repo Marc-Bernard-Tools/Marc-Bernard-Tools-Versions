@@ -2,27 +2,27 @@
 
 ![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Base&label=version&color=green)
 
-The following list shows the versions of all Marc Bernard Tools.
+The following list shows the versions of all *Marc Bernard Tools*.
 
 ## Free Version
 
-List of tools included in MBT Free Version bundle:
+List of tools included in *MBT Free Version* bundle:
 
 ### MBT Base
 
-![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Base&label=version&color=black)
+![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Base&label=version&color=darkgray)
 
 ### MBT Icon Browser
 
-![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Icon_Browser&label=version&color=black)
+![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Icon_Browser&label=version&color=darkgray)
 
 ### MBT Logical Object Lister
 
-![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Logical_Object_Lister&label=version&color=black)
+![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Logical_Object_Lister&label=version&color=darkgray)
 
 ## Premium Basis
 
-List of tools included in MBT Premium Basis bundle:
+List of tools included in *MBT Premium Basis* bundle:
 
 ### MBT Command Field
 
@@ -34,7 +34,7 @@ List of tools included in MBT Premium Basis bundle:
 
 ## Premium BW
 
-List of tools included in MBT Premium BW bundle:
+List of tools included in *MBT Premium BW* bundle:
 
 ### MBT System Monitor
 
