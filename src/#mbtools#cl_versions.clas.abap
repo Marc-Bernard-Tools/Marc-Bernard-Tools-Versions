@@ -37,7 +37,7 @@ ENDCLASS.
 
 
 
-CLASS /MBTOOLS/CL_VERSIONS IMPLEMENTATION.
+CLASS /mbtools/cl_versions IMPLEMENTATION.
 
 
   METHOD constructor.
@@ -64,8 +64,8 @@ CLASS /MBTOOLS/CL_VERSIONS IMPLEMENTATION.
         ls_dependency-group_id    = 'github.com/mbtools'.
         ls_dependency-artifact_id = ls_manifest-name.
       ELSE.
-        ls_dependency-group_id    = ls_manifest-group_id.
-        ls_dependency-artifact_id = ls_manifest-artifact_id.
+        ls_dependency-group_id    = apack_manifest-group_id.
+        ls_dependency-artifact_id = apack_manifest-artifact_id.
       ENDIF.
       ls_dependency-version        = ls_manifest-version.
       ls_dependency-git_url        = ls_manifest-git_url.
