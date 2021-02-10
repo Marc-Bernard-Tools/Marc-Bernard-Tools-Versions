@@ -48,7 +48,7 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
       ls_dependency TYPE zif_apack_manifest=>ty_dependency.
 
     apack_manifest-group_id        = 'github.com/mbtools'.
-    apack_manifest-artifact_id     = replace( val = c_tool-title sub = ` ` with = '_' occ = 99 ).
+    apack_manifest-artifact_id     = replace( val = c_tool-title sub = ` ` with = '_' occ = 0 ).
     apack_manifest-version         = c_tool-version.
     apack_manifest-repository_type = 'abapGit'.
     apack_manifest-git_url         = 'https://github.com/mbtools/Marc_Bernard_Tools_Version'.
@@ -65,7 +65,7 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
         ls_dependency-artifact_id = ls_manifest-name.
       ELSE.
         ls_dependency-group_id    = 'github.com/mbtools'.
-        ls_dependency-artifact_id = replace( val = ls_manifest-title sub = ` ` with = '_' occ = 99 ).
+        ls_dependency-artifact_id = replace( val = ls_manifest-title sub = ` ` with = '_' occ = 0 ).
       ENDIF.
       ls_dependency-version        = ls_manifest-version.
       ls_dependency-git_url        = ls_manifest-git_url.
