@@ -1,8 +1,6 @@
 # Marc Bernard Tools - Version Overview
 
-![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Base&label=version&color=green)
-
-The following list shows the versions of all *Marc Bernard Tools*.
+The following list shows the versions of all !*Marc Bernard Tools*(https://marcbernardtools.com).
 
 ## Free Tools
 
