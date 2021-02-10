@@ -12,6 +12,10 @@ List of tools included in *MBT Free Version* bundle:
 
 ![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Base&label=version&color=darkgray)
 
+### MBT Listcube
+
+![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Listcube&label=version&color=darkgray)
+
 ### MBT Icon Browser
 
 ![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Icon_Browser&label=version&color=darkgray)
@@ -31,6 +35,10 @@ List of tools included in *MBT Premium Basis* bundle:
 ### MBT Transport Request
 
 ![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Transport_Request&label=version&color=blue)
+
+### MBT Note Assistant
+
+![abap package version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/mbtools/Marc_Bernard_Tools_Versions/.apack-manifest.xml/dependencies/github.com/mbtools/MBT_Note_Assistant&label=version&color=blue)
 
 ## Premium BW
 
