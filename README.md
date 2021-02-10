@@ -4,9 +4,9 @@
 
 The following list shows the versions of all *Marc Bernard Tools*.
 
-## Free Version
+## Free Tools
 
-List of tools included in *MBT Free Version* bundle:
+List of tools included in *MBT Free* bundle:
 
 ### MBT Base
 
