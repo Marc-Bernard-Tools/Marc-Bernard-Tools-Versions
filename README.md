@@ -1,6 +1,6 @@
 # Marc Bernard Tools - Version Overview
 
-The following list shows the versions of all !*Marc Bernard Tools*(https://marcbernardtools.com).
+The following list shows the versions of all [*Marc Bernard Tools*](https://marcbernardtools.com).
 
 ## Free Tools
 
