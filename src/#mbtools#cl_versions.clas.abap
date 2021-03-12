@@ -61,11 +61,10 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
 
       CLEAR ls_dependency.
 
+      ls_dependency-group_id = 'github.com/mbtools'.
       IF ls_manifest-is_bundle = abap_true.
-        ls_dependency-group_id    = 'github.com/mbtools'.
         ls_dependency-artifact_id = ls_manifest-name.
       ELSE.
-        ls_dependency-group_id    = 'github.com/mbtools'.
         ls_dependency-artifact_id = replace( val  = ls_manifest-title
                                              sub  = ` `
                                              with = '_'
