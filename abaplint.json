@@ -6,9 +6,9 @@
 			"files": "/src/**/*.*"
 		},
 		{
-			"url": "https://github.com/mbtools/Marc_Bernard_Tools",
-			"folder": "/deps2",
-			"files": "/src/**/*.*"
+			"url": false,
+			"folder": "/deps",
+			"files": "/**/*.*"
 		}
 	],
 	"global": {
