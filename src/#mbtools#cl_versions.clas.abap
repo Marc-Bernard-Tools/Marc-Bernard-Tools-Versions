@@ -47,7 +47,7 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
     lv_name = replace(
       val  = c_tool-title
       sub  = ` `
-      with = '_'
+      with = '-'
       occ  = 0 ).
 
     if_apack_manifest~descriptor-group_id        = /mbtools/if_definitions=>c_github.
@@ -64,15 +64,11 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
       CLEAR ls_dependency.
 
       ls_dependency-group_id = /mbtools/if_definitions=>c_github.
-      IF ls_manifest-is_bundle = abap_true.
-        ls_dependency-artifact_id = ls_manifest-name.
-      ELSE.
-        ls_dependency-artifact_id = replace(
-          val  = ls_manifest-title
-          sub  = ` `
-          with = '_'
-          occ  = 0 ).
-      ENDIF.
+      ls_dependency-artifact_id = replace(
+        val  = ls_manifest-title
+        sub  = ` `
+        with = '-'
+        occ  = 0 ).
       ls_dependency-version        = ls_manifest-version.
       ls_dependency-git_url        = ls_manifest-git_url.
       ls_dependency-target_package = ls_manifest-package.
