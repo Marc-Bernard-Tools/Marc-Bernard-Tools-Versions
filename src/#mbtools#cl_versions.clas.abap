@@ -14,7 +14,7 @@ CLASS /mbtools/cl_versions DEFINITION
 
   PUBLIC SECTION.
 
-    INTERFACES if_apack_manifest .
+    INTERFACES if_apack_manifest.
 
     CONSTANTS:
       BEGIN OF c_tool,
@@ -31,8 +31,6 @@ CLASS /mbtools/cl_versions DEFINITION
 
   PRIVATE SECTION.
 
-    ALIASES apack_manifest
-      FOR if_apack_manifest~descriptor .
 ENDCLASS.
 
 
@@ -43,16 +41,19 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
   METHOD constructor.
 
     DATA:
-      ls_manifest   TYPE /mbtools/manifest,
-      lt_manifest   TYPE /mbtools/manifests,
+      ls_manifest   TYPE /mbtools/if_tool=>ty_manifest,
+      lt_manifest   TYPE /mbtools/if_tool=>ty_manifests,
       ls_dependency TYPE zif_apack_manifest=>ty_dependency.
 
-    apack_manifest-group_id        = 'github.com/mbtools'.
-    apack_manifest-artifact_id     = replace( val = c_tool-title sub = ` ` with = '_' occ = 0 ).
-    apack_manifest-version         = c_tool-version.
-    apack_manifest-repository_type = 'abapGit'.
-    apack_manifest-git_url         = 'https://github.com/mbtools/Marc_Bernard_Tools_Version'.
-    apack_manifest-target_package  = '/MBTOOLS/BC_VERS'.
+    if_apack_manifest~descriptor-group_id        = 'github.com/mbtools'.
+    if_apack_manifest~descriptor-artifact_id     = replace( val  = c_tool-title
+                                                             sub  = ` `
+                                                             with = '_'
+                                                             occ  = 0 ).
+    if_apack_manifest~descriptor-version         = c_tool-version.
+    if_apack_manifest~descriptor-repository_type = 'abapGit'.
+    if_apack_manifest~descriptor-git_url         = 'https://github.com/mbtools/Marc_Bernard_Tools_Version'.
+    if_apack_manifest~descriptor-target_package  = '/MBTOOLS/BC_VERS'.
 
     lt_manifest = /mbtools/cl_tools=>get_manifests( ).
 
@@ -65,12 +66,15 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
         ls_dependency-artifact_id = ls_manifest-name.
       ELSE.
         ls_dependency-group_id    = 'github.com/mbtools'.
-        ls_dependency-artifact_id = replace( val = ls_manifest-title sub = ` ` with = '_' occ = 0 ).
+        ls_dependency-artifact_id = replace( val  = ls_manifest-title
+                                             sub  = ` `
+                                             with = '_'
+                                             occ  = 0 ).
       ENDIF.
       ls_dependency-version        = ls_manifest-version.
       ls_dependency-git_url        = ls_manifest-git_url.
       ls_dependency-target_package = ls_manifest-package.
-      INSERT ls_dependency INTO TABLE apack_manifest-dependencies.
+      INSERT ls_dependency INTO TABLE if_apack_manifest~descriptor-dependencies.
 
     ENDLOOP.
 
