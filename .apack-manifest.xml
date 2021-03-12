@@ -2,78 +2,78 @@
 <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
  <asx:values>
   <DATA>
-   <GROUP_ID>github.com/mbtools</GROUP_ID>
+   <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
    <ARTIFACT_ID>Marc_Bernard_Tools_Version</ARTIFACT_ID>
    <VERSION>1.0.0</VERSION>
    <REPOSITORY_TYPE>abapGit</REPOSITORY_TYPE>
-   <GIT_URL>https://github.com/mbtools/Marc_Bernard_Tools_Version</GIT_URL>
+   <GIT_URL>https://github.com/Marc-Bernard-Tools/Marc_Bernard_Tools_Version</GIT_URL>
    <DEPENDENCIES>
     <item>
-     <GROUP_ID>github.com/mbtools</GROUP_ID>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
      <ARTIFACT_ID>MBT_Base</ARTIFACT_ID>
      <VERSION>1.0.0</VERSION>
      <GIT_URL>https://github.com/Marc-Bernard-Tools/MBT-Base</GIT_URL>
      <TARGET_PACKAGE>/MBTOOLS/BC_TOOLS</TARGET_PACKAGE>
     </item>
     <item>
-     <GROUP_ID>github.com/mbtools</GROUP_ID>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
      <ARTIFACT_ID>MBT_Command_Field</ARTIFACT_ID>
      <VERSION>1.0.0</VERSION>
      <GIT_URL>https://github.com/Marc-Bernard-Tools/MBT-Command-Field</GIT_URL>
      <TARGET_PACKAGE>/MBTOOLS/BC_CL</TARGET_PACKAGE>
     </item>
     <item>
-     <GROUP_ID>github.com/mbtools</GROUP_ID>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
      <ARTIFACT_ID>MBT_Free_Tools</ARTIFACT_ID>
      <VERSION>1.0.0</VERSION>
     </item>
     <item>
-     <GROUP_ID>github.com/mbtools</GROUP_ID>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
      <ARTIFACT_ID>MBT_Icon_Browser</ARTIFACT_ID>
      <VERSION>1.0.0</VERSION>
      <GIT_URL>https://github.com/Marc-Bernard-Tools/MBT-Icon-Browser</GIT_URL>
      <TARGET_PACKAGE>/MBTOOLS/BC_ICON</TARGET_PACKAGE>
     </item>
     <item>
-     <GROUP_ID>github.com/mbtools</GROUP_ID>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
      <ARTIFACT_ID>MBT_Listcube</ARTIFACT_ID>
      <VERSION>1.0.0</VERSION>
      <GIT_URL>https://github.com/Marc-Bernard-Tools/MBT-Listcube</GIT_URL>
      <TARGET_PACKAGE>/MBTOOLS/BW_LISTCUBE</TARGET_PACKAGE>
     </item>
     <item>
-     <GROUP_ID>github.com/mbtools</GROUP_ID>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
      <ARTIFACT_ID>MBT_Logical_Object_Lister</ARTIFACT_ID>
      <VERSION>1.0.0</VERSION>
      <GIT_URL>https://github.com/Marc-Bernard-Tools/MBT-Logical-Object-Lister</GIT_URL>
      <TARGET_PACKAGE>/MBTOOLS/BW_LOL</TARGET_PACKAGE>
     </item>
     <item>
-     <GROUP_ID>github.com/mbtools</GROUP_ID>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
      <ARTIFACT_ID>MBT_Note_Assistant</ARTIFACT_ID>
      <VERSION>1.0.0</VERSION>
      <GIT_URL>https://github.com/Marc-Bernard-Tools/MBT-Note-Assistant</GIT_URL>
      <TARGET_PACKAGE>/MBTOOLS/BC_SNOTE</TARGET_PACKAGE>
     </item>
     <item>
-     <GROUP_ID>github.com/mbtools</GROUP_ID>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
      <ARTIFACT_ID>MBT_Premium_BW</ARTIFACT_ID>
      <VERSION>1.0.0</VERSION>
     </item>
     <item>
-     <GROUP_ID>github.com/mbtools</GROUP_ID>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
      <ARTIFACT_ID>MBT_Premium_Basis</ARTIFACT_ID>
      <VERSION>1.0.0</VERSION>
     </item>
     <item>
-     <GROUP_ID>github.com/mbtools</GROUP_ID>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
      <ARTIFACT_ID>MBT_System_Monitor</ARTIFACT_ID>
      <VERSION>1.0.0</VERSION>
      <GIT_URL>https://github.com/Marc-Bernard-Tools/MBT-System-Monitor</GIT_URL>
      <TARGET_PACKAGE>/MBTOOLS/BW_SYS_MON</TARGET_PACKAGE>
     </item>
     <item>
-     <GROUP_ID>github.com/mbtools</GROUP_ID>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
      <ARTIFACT_ID>MBT_Transport_Request</ARTIFACT_ID>
      <VERSION>1.0.2</VERSION>
      <GIT_URL>https://github.com/Marc-Bernard-Tools/MBT-Transport-Request</GIT_URL>
