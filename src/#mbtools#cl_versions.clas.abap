@@ -40,8 +40,8 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
 
     DATA:
       lv_name       TYPE string,
-      ls_manifest   TYPE /mbtools/if_tool=>ty_manifest,
-      lt_manifest   TYPE /mbtools/if_tool=>ty_manifests,
+      ls_manifest   TYPE /mbtools/cl_tools=>ty_manifest,
+      lt_manifest   TYPE /mbtools/cl_tools=>ty_manifests,
       ls_dependency TYPE zif_apack_manifest=>ty_dependency.
 
     lv_name = replace(
@@ -70,8 +70,10 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
         with = '-'
         occ  = 0 ).
       ls_dependency-version        = ls_manifest-version.
-      ls_dependency-git_url        = ls_manifest-git_url.
-      ls_dependency-target_package = ls_manifest-package.
+      IF ls_manifest-is_bundle IS INITIAL.
+        ls_dependency-git_url        = ls_manifest-git_url.
+        ls_dependency-target_package = ls_manifest-package.
+      ENDIF.
       INSERT ls_dependency INTO TABLE if_apack_manifest~descriptor-dependencies.
 
     ENDLOOP.
