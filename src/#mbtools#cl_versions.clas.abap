@@ -57,7 +57,7 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
     if_apack_manifest~descriptor-git_url         = 'https://' && /mbtools/if_definitions=>c_github && '/' && lv_name.
     if_apack_manifest~descriptor-target_package  = '/MBTOOLS/BC_VERS'.
 
-    lt_manifest = /mbtools/cl_tools=>get_manifests( ).
+    lt_manifest = /mbtools/cl_tools=>manifests( ).
 
     LOOP AT lt_manifest INTO ls_manifest.
 
