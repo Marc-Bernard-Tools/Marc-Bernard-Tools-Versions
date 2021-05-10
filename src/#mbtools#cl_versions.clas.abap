@@ -40,8 +40,8 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
 
     DATA:
       lv_name       TYPE string,
-      ls_manifest   TYPE /mbtools/cl_tools=>ty_manifest,
-      lt_manifest   TYPE /mbtools/cl_tools=>ty_manifests,
+      ls_manifest   TYPE /mbtools/cl_tool_manager=>ty_manifest,
+      lt_manifest   TYPE /mbtools/cl_tool_manager=>ty_manifests,
       ls_dependency TYPE zif_apack_manifest=>ty_dependency.
 
     lv_name = replace(
@@ -57,7 +57,7 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
     if_apack_manifest~descriptor-git_url         = 'https://' && /mbtools/if_definitions=>c_github && '/' && lv_name.
     if_apack_manifest~descriptor-target_package  = '/MBTOOLS/BC_VERS'.
 
-    lt_manifest = /mbtools/cl_tools=>manifests( ).
+    lt_manifest = /mbtools/cl_tool_manager=>manifests( ).
 
     LOOP AT lt_manifest INTO ls_manifest.
 
