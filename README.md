@@ -1,6 +1,5 @@
 [![license](https://img.shields.io/github/license/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions)](LICENSE)
 [![REUSE status](https://api.reuse.software/badge/github.com/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions)](https://api.reuse.software/info/github.com/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 # Marc Bernard Tools - Version Overview
 
