@@ -32,7 +32,8 @@
 		"allowed_object_types": {
 			"allowed": [
 				"CLAS",
-				"DEVC"
+				"DEVC",
+				"NSPC"
 			],
 			"exclude": [],
 			"severity": "Error"
