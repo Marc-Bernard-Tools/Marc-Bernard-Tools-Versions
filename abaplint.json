@@ -8,7 +8,7 @@
 	],
 	"global": {
 		"exclude": [
-			"#mbtools#cl_mbt_version.clas.abap"
+			"#mbtools#cl_mbt_versions.clas.abap"
 		],
 		"files": "/src/**/*.*",
 		"skipGeneratedFunctionGroups": true,
