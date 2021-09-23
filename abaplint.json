@@ -737,7 +737,10 @@
 		"unused_types": {
 			"exclude": [],
 			"severity": "Error",
-			"skipNames": []
+			"skipNames": [
+				"/mbtools/if_definitions",
+				"/mbtools/if_tool"
+			]
 		},
 		"unused_variables": {
 			"exclude": [],
