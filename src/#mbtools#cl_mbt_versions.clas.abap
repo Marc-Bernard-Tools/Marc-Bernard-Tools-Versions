@@ -1,7 +1,8 @@
-CLASS /mbtools/cl_versions DEFINITION
+CLASS /mbtools/cl_mbt_versions DEFINITION
   PUBLIC
   FINAL
-  CREATE PUBLIC .
+  CREATE PUBLIC.
+
 ************************************************************************
 * MBT Versions
 *
@@ -12,7 +13,6 @@ CLASS /mbtools/cl_versions DEFINITION
 * Copyright 2021 Marc Bernard <https://marcbernardtools.com/>
 * SPDX-License-Identifier: GPL-3.0-or-later
 ************************************************************************
-
   PUBLIC SECTION.
 
     INTERFACES if_apack_manifest.
@@ -24,8 +24,7 @@ CLASS /mbtools/cl_versions DEFINITION
         description TYPE string VALUE 'Version Overview for Marc Bernard Tools' ##NO_TEXT,
       END OF c_tool.
 
-    METHODS constructor .
-
+    METHODS constructor.
   PROTECTED SECTION.
 
   PRIVATE SECTION.
@@ -34,7 +33,7 @@ ENDCLASS.
 
 
 
-CLASS /mbtools/cl_versions IMPLEMENTATION.
+CLASS /mbtools/cl_mbt_versions IMPLEMENTATION.
 
 
   METHOD constructor.
@@ -43,7 +42,7 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
       lv_name       TYPE string,
       ls_manifest   TYPE /mbtools/if_tool=>ty_manifest,
       lt_manifest   TYPE /mbtools/if_tool=>ty_manifests,
-      ls_dependency TYPE zif_apack_manifest=>ty_dependency.
+      ls_dependency TYPE if_apack_manifest=>ty_dependency.
 
     lv_name = replace(
       val  = c_tool-title
@@ -56,7 +55,7 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
     if_apack_manifest~descriptor-version         = c_tool-version.
     if_apack_manifest~descriptor-repository_type = 'abapGit'.
     if_apack_manifest~descriptor-git_url         = 'https://' && /mbtools/if_definitions=>c_github && '/' && lv_name.
-    if_apack_manifest~descriptor-target_package  = '/MBTOOLS/BC_VERS'.
+    "if_apack_manifest~descriptor-target_package  = '/MBTOOLS/BC_VERS'
 
     lt_manifest = /mbtools/cl_tool_manager=>manifests( ).
 
@@ -70,9 +69,9 @@ CLASS /mbtools/cl_versions IMPLEMENTATION.
         sub  = ` `
         with = '-'
         occ  = 0 ).
-      ls_dependency-version        = ls_manifest-version.
+      ls_dependency-version = ls_manifest-version.
       IF ls_manifest-is_bundle IS INITIAL.
-        ls_dependency-git_url        = ls_manifest-git_url.
+        ls_dependency-git_url = ls_manifest-git_url.
         ls_dependency-target_package = ls_manifest-package.
       ENDIF.
       INSERT ls_dependency INTO TABLE if_apack_manifest~descriptor-dependencies.
