@@ -1,8 +1,13 @@
 {
 	"dependencies": [
 		{
-			"url": "https://github.com/abaplint/deps",
+			"url": false,
 			"folder": "/deps",
+			"files": "/deps/**/*.*"
+		},
+		{
+			"url": "https://github.com/abaplint/deps",
+			"folder": "/deps2",
 			"files": "/src/**/*.*"
 		}
 	],
