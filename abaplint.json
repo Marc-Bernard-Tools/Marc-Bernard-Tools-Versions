@@ -4,11 +4,6 @@
 			"url": "https://github.com/abaplint/deps",
 			"folder": "/deps",
 			"files": "/src/**/*.*"
-		},
-		{
-			"url": "https://github.com/Marc-Bernard-Tools/MBT-Dependencies",
-			"folder": "/deps3",
-			"files": "/src/**/*.*"
 		}
 	],
 	"global": {
