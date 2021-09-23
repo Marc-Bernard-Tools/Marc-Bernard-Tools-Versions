@@ -2,7 +2,7 @@
 	"dependencies": [
 		{
 			"folder": "/deps",
-			"files": "/**/*.*"
+			"files": "/deps/*.*"
 		},
 		{
 			"url": "https://github.com/abaplint/deps",
@@ -741,10 +741,7 @@
 		"unused_types": {
 			"exclude": [],
 			"severity": "Error",
-			"skipNames": [
-				"/mbtools/if_definitions",
-				"/mbtools/if_tool"
-			]
+			"skipNames": [],
 		},
 		"unused_variables": {
 			"exclude": [],
