@@ -74,7 +74,7 @@
 			"move": true,
 			"refresh": true,
 			"severity": "Error",
-      "sort": true,
+			"sort": true,
 			"unassign": true,
 			"write": true
 		},
