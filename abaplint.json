@@ -1,17 +1,15 @@
 {
 	"dependencies": [
 		{
-			"folder": "/deps",
-			"files": "/deps/*.*"
-		},
-		{
 			"url": "https://github.com/abaplint/deps",
-			"folder": "/lint_deps",
+			"folder": "/deps",
 			"files": "/src/**/*.*"
 		}
 	],
 	"global": {
-		"exclude": [],
+		"exclude": [
+			"#mbtools#cl_mbt_version.clas.abap"
+		],
 		"files": "/src/**/*.*",
 		"skipGeneratedFunctionGroups": true,
 		"skipGeneratedGatewayClasses": true,
@@ -199,9 +197,7 @@
 			"severity": "Error"
 		},
 		"definitions_top": {
-			"exclude": [
-				"#mbtools#.*_ajson.*"
-			],
+			"exclude": [],
 			"severity": "Error"
 		},
 		"description_empty": {
