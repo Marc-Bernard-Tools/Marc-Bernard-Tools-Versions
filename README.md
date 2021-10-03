@@ -1,6 +1,6 @@
 [![license](https://img.shields.io/github/license/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions)](LICENSE)
 [![REUSE status](https://api.reuse.software/badge/github.com/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions)](https://api.reuse.software/info/github.com/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions)
-[![ClearlyDefined](https://img.shields.io/clearlydefined/score/git/github/marc-bernard-tools/marc-bernard-tools-versions/274c8486784d263d71fa2018ce689d50e622a421)](https://clearlydefined.io/definitions/git/github/marc-bernard-tools/marc-bernard-tools-versions/274c8486784d263d71fa2018ce689d50e622a421)
+[![ClearlyDefined](https://img.shields.io/clearlydefined/score/git/github/marc-bernard-tools/marc-bernard-tools-versions/274c8486784d263d71fa2018ce689d50e622a421?label=ClearlyDefined%20Score](https://clearlydefined.io/definitions/git/github/marc-bernard-tools/marc-bernard-tools-versions/274c8486784d263d71fa2018ce689d50e622a421)
 
 # Marc Bernard Tools - Version Overview
 
