@@ -14,7 +14,7 @@ The following list shows the versions of all [*Marc Bernard Tools*](https://marc
 
 ## Basis Tools
 
-List of tools included in [*MBT Basis*](https://marcbernardtools.com/downloads/marc-bernard-tools-premium-basis) bundle:
+List of tools included in [*MBT Basis*](https://marcbernardtools.com/tool-category/basis/) bundle:
 
 ### [MBT Command Field](https://marcbernardtools.com/downloads/mbt-command-field)
 
@@ -30,7 +30,7 @@ List of tools included in [*MBT Basis*](https://marcbernardtools.com/downloads/m
 
 ## BW Tools
 
-List of tools included in [*MBT BW*](https://marcbernardtools.com/downloads/marc-bernard-tools-premium-bw) bundle:
+List of tools included in [*MBT BW*](https://marcbernardtools.com/tool-category/bw/) bundle:
 
 ### [MBT Listcube](https://marcbernardtools.com/downloads/mbt-listcube)
 
