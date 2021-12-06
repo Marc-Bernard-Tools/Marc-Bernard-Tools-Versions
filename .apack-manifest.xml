@@ -10,7 +10,17 @@
    <DEPENDENCIES>
     <item>
      <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
-     <ARTIFACT_ID>MBT-BW-Tools</ARTIFACT_ID>
+     <ARTIFACT_ID>BW-Tools</ARTIFACT_ID>
+     <VERSION>1.0.0</VERSION>
+    </item>
+    <item>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
+     <ARTIFACT_ID>Basis-Tools</ARTIFACT_ID>
+     <VERSION>1.0.0</VERSION>
+    </item>
+    <item>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
+     <ARTIFACT_ID>Foundation</ARTIFACT_ID>
      <VERSION>1.0.0</VERSION>
     </item>
     <item>
@@ -22,11 +32,6 @@
     </item>
     <item>
      <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
-     <ARTIFACT_ID>MBT-Basis-Tools</ARTIFACT_ID>
-     <VERSION>1.0.0</VERSION>
-    </item>
-    <item>
-     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
      <ARTIFACT_ID>MBT-Command-Field</ARTIFACT_ID>
      <VERSION>1.2.0</VERSION>
      <GIT_URL>https://github.com/Marc-Bernard-Tools/MBT-Command-Field</GIT_URL>
@@ -34,8 +39,10 @@
     </item>
     <item>
      <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
-     <ARTIFACT_ID>MBT-Foundation</ARTIFACT_ID>
-     <VERSION>1.0.0</VERSION>
+     <ARTIFACT_ID>MBT-Command-Field-EXT</ARTIFACT_ID>
+     <VERSION>1.2.0</VERSION>
+     <GIT_URL>https://github.com/Marc-Bernard-Tools/MBT-Command-Field-EXT</GIT_URL>
+     <TARGET_PACKAGE>/MBTOOLS/BC-CL-EXT</TARGET_PACKAGE>
     </item>
     <item>
      <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
@@ -64,6 +71,13 @@
      <VERSION>1.2.0</VERSION>
      <GIT_URL>https://github.com/Marc-Bernard-Tools/MBT-Note-Assistant</GIT_URL>
      <TARGET_PACKAGE>/MBTOOLS/BC-SNOTE</TARGET_PACKAGE>
+    </item>
+    <item>
+     <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
+     <ARTIFACT_ID>MBT-Object-Browser</ARTIFACT_ID>
+     <VERSION>1.0.0</VERSION>
+     <GIT_URL>https://github.com/Marc-Bernard-Tools/MBT-Object-Browser</GIT_URL>
+     <TARGET_PACKAGE>/MBTOOLS/BC-OBJ</TARGET_PACKAGE>
     </item>
     <item>
      <GROUP_ID>github.com/Marc-Bernard-Tools</GROUP_ID>
