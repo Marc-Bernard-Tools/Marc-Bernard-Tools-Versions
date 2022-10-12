@@ -41,6 +41,3 @@ List of tools included in [*MBT BW*](https://marcbernardtools.com/tool-category/
 
 ![Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fshield.abap.space%2Fversion-shield-json%2Fgithub%2FMarc-Bernard-Tools%2FMBT-Logical-Object-Lister%2Fsrc%2F%2523mbtools%2523cl_tool_bw_lol.clas.abap&label=Version&color=orange)
 
-### [MBT System Monitor](https://marcbernardtools.com/downloads/mbt-system-monitor)
-
-![Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fshield.abap.space%2Fversion-shield-json%2Fgithub%2FMarc-Bernard-Tools%2FMBT-System-Monitor%2Fsrc%2F%2523mbtools%2523cl_tool_bw_sys_mon.clas.abap&label=Version&color=orange)
