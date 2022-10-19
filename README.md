@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/github/license/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions?label=License&color=green)](LICENSE)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg?color=green)](CODE_OF_CONDUCT.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?color=green)](CODE_OF_CONDUCT.md)
 [![REUSE Status](https://api.reuse.software/badge/github.com/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions)](https://api.reuse.software/info/github.com/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions)
 [![ClearlyDefined Score](https://img.shields.io/clearlydefined/score/git/github/marc-bernard-tools/marc-bernard-tools-versions/274c8486784d263d71fa2018ce689d50e622a421?label=ClearlyDefined%20Score)](https://clearlydefined.io/definitions/git/github/marc-bernard-tools/marc-bernard-tools-versions/274c8486784d263d71fa2018ce689d50e622a421)
 
