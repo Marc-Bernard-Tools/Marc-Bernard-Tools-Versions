@@ -9,9 +9,9 @@ The following list shows the versions of all [*Marc Bernard Tools*](https://marc
 
 ## Foundation
 
-### [MBT Base](https://marcbernardtools.com/downloads/mbt-base)
+### [MBT Package Manager](https://marcbernardtools.com/downloads/mbt-package-manager)
 
-![Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fshield.abap.space%2Fversion-shield-json%2Fgithub%2FMarc-Bernard-Tools%2FMBT-Base%2Fsrc%2F%2523mbtools%2523cl_tool_bc.clas.abap&label=Version&color=darkgrey)
+![Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fshield.abap.space%2Fversion-shield-json%2Fgithub%2FMarc-Bernard-Tools%2FMBT-Package-Manager%2Fsrc%2F%2523mbtools%2523cl_tool_bc.clas.abap&label=Version&color=darkgrey)
 
 ## Basis Tools
 
