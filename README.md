@@ -1,5 +1,7 @@
-[![License](https://img.shields.io/github/license/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions?label=License&color=green)](LICENSE)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?color=green)](https://github.com/Marc-Bernard-Tools/.github/blob/main/CODE_OF_CONDUCT.md)
+[![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://communityinviter.com/apps/marc-bernard-tools/join-our-slack-community)
+
+[![License](https://img.shields.io/github/license/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions?label=License&color=success)](LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?color=success)](https://github.com/Marc-Bernard-Tools/.github/blob/main/CODE_OF_CONDUCT.md)
 [![REUSE Status](https://api.reuse.software/badge/github.com/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions)](https://api.reuse.software/info/github.com/Marc-Bernard-Tools/Marc-Bernard-Tools-Versions)
 [![ClearlyDefined Score](https://img.shields.io/clearlydefined/score/git/github/marc-bernard-tools/marc-bernard-tools-versions/68430095a298a892a0e73ccc79dbdff9f3b03e72?label=ClearlyDefined%20Score)](https://clearlydefined.io/definitions/git/github/marc-bernard-tools/marc-bernard-tools-versions/68430095a298a892a0e73ccc79dbdff9f3b03e72)
 
