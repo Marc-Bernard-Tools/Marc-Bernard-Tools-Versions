@@ -13,7 +13,7 @@ The following list shows the versions of all [*Marc Bernard Tools*](https://marc
 
 ### [MBT Package Manager](https://marcbernardtools.com/downloads/mbt-package-manager)
 
-![Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fshield.abap.space%2Fversion-shield-json%2Fgithub%2FMarc-Bernard-Tools%2FMBT-Package-Manager%2Fsrc%2F%2523mbtools%2523cl_tool_bc.clas.abap&label=Version&color=darkgrey)
+![Version](https://img.shields.io/endpoint?url=https://shield.abappm.com/github/Marc-Bernard-Tools/MBT-Package-Manager/src/%2523mbtools%2523cl_tool_bc.clas.abap&label=Version&color=darkgrey)
 
 ## Basis Tools
 
@@ -21,15 +21,15 @@ List of tools included in [*MBT Basis*](https://marcbernardtools.com/tool-catego
 
 ### [MBT Command Field](https://marcbernardtools.com/downloads/mbt-command-field)
 
-![Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fshield.abap.space%2Fversion-shield-json%2Fgithub%2FMarc-Bernard-Tools%2FMBT-Command-Field%2Fsrc%2F%2523mbtools%2523cl_tool_bc_cl.clas.abap&label=Version&color=blue)
+![Version](https://img.shields.io/endpoint?url=https://shield.abappm.com/github/Marc-Bernard-Tools/MBT-Command-Field%2Fsrc%2F%2523mbtools%2523cl_tool_bc_cl.clas.abap&label=Version&color=blue)
 
 ### [MBT Icon Browser](https://marcbernardtools.com/downloads/mbt-icon-browser)
 
-![Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fshield.abap.space%2Fversion-shield-json%2Fgithub%2FMarc-Bernard-Tools%2FMBT-Icon-Browser%2Fsrc%2F%2523mbtools%2523cl_tool_bc_icon.clas.abap&label=Version&color=blue)
+![Version](https://img.shields.io/endpoint?url=https://shield.abappm.com/github/Marc-Bernard-Tools/MBT-Icon-Browser%2Fsrc%2F%2523mbtools%2523cl_tool_bc_icon.clas.abap&label=Version&color=blue)
 
 ### [MBT Transport Request](https://marcbernardtools.com/downloads/mbt-transport-request)
 
-![Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fshield.abap.space%2Fversion-shield-json%2Fgithub%2FMarc-Bernard-Tools%2FMBT-Transport-Request%2Fsrc%2F%2523mbtools%2523cl_tool_bc_cts_req.clas.abap&label=Version&color=blue)
+![Version](https://img.shields.io/endpoint?url=https://shield.abappm.com/github/Marc-Bernard-Tools/MBT-Transport-Request%2Fsrc%2F%2523mbtools%2523cl_tool_bc_cts_req.clas.abap&label=Version&color=blue)
 
 ## BW Tools
 
@@ -37,9 +37,9 @@ List of tools included in [*MBT BW*](https://marcbernardtools.com/tool-category/
 
 ### [MBT Listcube](https://marcbernardtools.com/downloads/mbt-listcube)
 
-![Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fshield.abap.space%2Fversion-shield-json%2Fgithub%2FMarc-Bernard-Tools%2FMBT-Listcube%2Fsrc%2F%2523mbtools%2523cl_tool_bw_listcube.clas.abap&label=Version&color=orange)
+![Version](https://img.shields.io/endpoint?url=https://shield.abappm.com/github/Marc-Bernard-Tools/MBT-Listcube%2Fsrc%2F%2523mbtools%2523cl_tool_bw_listcube.clas.abap&label=Version&color=orange)
 
 ### [MBT Logical Object Lister](https://marcbernardtools.com/downloads/mbt-logical-object-lister)
 
-![Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fshield.abap.space%2Fversion-shield-json%2Fgithub%2FMarc-Bernard-Tools%2FMBT-Logical-Object-Lister%2Fsrc%2F%2523mbtools%2523cl_tool_bw_lol.clas.abap&label=Version&color=orange)
+![Version](https://img.shields.io/endpoint?url=https://shield.abappm.com/github/Marc-Bernard-Tools/MBT-Logical-Object-Lister%2Fsrc%2F%2523mbtools%2523cl_tool_bw_lol.clas.abap&label=Version&color=orange)
 
